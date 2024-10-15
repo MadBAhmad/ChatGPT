@@ -9,7 +9,7 @@
 <body>
     <div class="flex">
         <!-- sidebar --->
-        <div class="h-screen w-[260px] bg-neutral-100 p-2">
+        <div class="hidden sm:block relative h-screen w-[260px]  bg-neutral-100 p-2">
             <!-- Side-panel Hide -->
             <div class="flex items-center justify-between px-1">
                 <img class="p-2 h-10 rounded-lg hover:bg-neutral-200" src="../src/Images/side-panel.svg" alt="">
@@ -49,8 +49,10 @@
                 </div>
             </div>
         </div>
+
+
         <!-- main-page -->
-         <div class="w-[calc(100%-260px)] h-screen px-5 py-2 relative">
+         <div class="w-[90%] mx-auto sm:mx-0 h-screen px-5 py-2 sm:w-[calc(100%-260px)] relative">
             
             <div class="flex justify-between items-center">
                 <div class="flex items-center hover:bg-neutral-100 rounded-lg p-[7px]">
@@ -66,7 +68,7 @@
 
 
             <!-- Input area main-->
-             <div class="w-[790px] mx-auto absolute top-[300px] left-1/2 -translate-x-1/2">
+             <div class="w-[790px] mx-auto absolute bottom-[300px] sm:w-[calc(100%-260px)] left-1/2 -translate-x-1/2">
                 <div class="text-center mb-10">
                     <h1 class="text-3xl font-semibold">What can I help with?</h1>
                 </div>
@@ -83,7 +85,7 @@
                     </svg>
                     </div>
                 </div>
-                <div class="flex justify-around gap-2 text-center mt-3">
+                <div class="flex md:flex sm:block justify-around gap-2 text-center mt-3">
                     <div class="flex items-center p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
                         <img class="h-5" src="../src/Images/bluewave.svg" alt="">
                         <p class="text-sm text-neutral-500">Create image</p>
@@ -100,17 +102,17 @@
                         <img class="h-5" src="../src/Images/Insights.svg" alt="">
                         <p class="text-sm text-neutral-500"">Create image</p>
                     </div>
-                    <div class="flex p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
+                    <!-- <div class="flex p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
                         <img class="h-5" src="../src/Images/Insights.svg" alt="">
                         <p class="text-sm text-neutral-500"">Create image</p>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="text-center top-80 absolute left-1/2 -translate-x-1/2">
-                    <h5 class="text-neutral-400 text-xs bottom-1">ChatGPT can make mistakes. Check important info.</h5>
-                
-             </div>
-             
+               
             </div>
+            <div class="text-center">
+                <h5 class="text-neutral-400 text-xs absolute bottom-1 left-1/2 -translate-x-1/2">ChatGPT can make mistakes. Check important info.</h5>
+            
+         </div>
          </div>
     </div>
 </body>
