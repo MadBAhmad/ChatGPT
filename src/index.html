@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
+    <title>Chatgpt</title>
+</head>
+<body>
+    <div class="flex">
+        <!-- sidebar --->
+        <div class="h-screen w-[260px] bg-neutral-100 p-2">
+            <!-- Side-panel Hide -->
+            <div class="flex items-center justify-between px-1">
+                <img class="p-2 h-10 rounded-lg hover:bg-neutral-200" src="../src/Images/side-panel.svg" alt="">
+                <img class="p-2 h-10 rounded-lg hover:bg-neutral-200" src="../src/Images/edit-icon.svg" alt="">
+                
+            </div>
+            <div class="flex items-center gap-[10px] px-3 py-2 mt-2 hover:bg-neutral-200 rounded-xl">
+                <img class="h-6 p-[3px] rounded-full border bg-white" src="../src/Images/gpt-logo.svg" alt="">
+                <p class="text-sm ">ChatGPT</p>
+            </div>
+            <div class="flex items-center gap-[10px] px-3 py-2 hover:bg-neutral-200 rounded-xl">
+                <img class="h-6 p-[2px] rounded-full border bg-white" src="../src/Images/explore-gpt.svg" alt="">
+                <p class="text-sm ">Explore GPTs</p>
+            </div>
+            
+            
+            <p class="mt-5 text-xs text-slate-950 font-semibold px-3 py-3">Previous 30 Days</p>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Bangalore traffic struggles</div>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Score Discrepency report</div>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Tagline for Golden Honey</div>
+            <!-- <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Resume Bio dividions</div> -->
+
+            <p class="mt-5 text-xs text-slate-950 font-semibold px-3 py-3">September</p>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Bangalore traffic struggles</div>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Score Discrepency report</div>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Tagline for Golden Honey</div>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Resume Bio dividions</div>
+            <div class="text-neutral-900 py-2 px-3 text-sm hover:bg-neutral-200 hover:cursor-pointer rounded-lg">Tailwind css hands on project</div>
+            <!-- side panel footer -->
+            <div class="absolute bottom-2">
+                <div class="flex items-center gap-1 px-3 py-1 mt-3 hover:bg-neutral-200 bottom-0 rounded-xl">
+                    <img class="h-6 p-[3px] rounded-full border bg-white" src="../src/Images/upgrade-gpt.svg" alt="">
+                    <div class="p-1">
+                    <p class="text-sm ">Upgrade plan</p>
+                    <p class="text-[12px] text-neutral-400 ">More access to the best models</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main-page -->
+         <div class="w-[calc(100%-260px)] h-screen px-5 py-2 relative">
+            
+            <div class="flex justify-between items-center">
+                <div class="flex items-center hover:bg-neutral-100 rounded-lg p-[7px]">
+                    <h1 class="text-lg font-semibold text-neutral-600 ">ChatGPT</h1>
+                    <svg width="24" height="18" viewBox="0 0 24 24" fill="lightgray" xmlns="http://www.w3.org/2000/svg" class="icon-md text-token-text-tertiary">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 9.29289C5.68342 8.90237 6.31658 8.90237 6.70711 9.29289L12 14.5858L17.2929 9.29289C17.6834 8.90237 18.3166 8.90237 18.7071 9.29289C19.0976 9.68342 19.0976 10.3166 18.7071 10.7071L12.7071 16.7071C12.5196 16.8946 12.2652 17 12 17C11.7348 17 11.4804 16.8946 11.2929 16.7071L5.29289 10.7071C4.90237 10.3166 4.90237 9.68342 5.29289 9.29289Z" fill="lightgray"></path>
+                    </svg>
+                </div>
+                <div class="w-10 p-1">
+                    <img class="ml-1 rounded-full hover:bg-neutral-200 " src="../src/Images/profilr.jpeg" alt="">
+                </div>
+            </div>
+
+
+            <!-- Input area main-->
+             <div class="w-[790px] mx-auto absolute top-[300px] left-1/2 -translate-x-1/2">
+                <div class="text-center mb-10">
+                    <h1 class="text-3xl font-semibold">What can I help with?</h1>
+                </div>
+                <div class="  flex items-center justify-between bg-neutral-100 rounded-3xl h-12">
+                    <div class="flex p-1">
+                        <img class="p-2" src="../src/Images/attach-icon.svg" alt="">
+                        <input class="w-full outline-none bg-neutral-100 p-1" type="text" placeholder="Message ChatGPT">
+                    </div>
+                        
+                    <div class="">
+                        <!-- arrow-up-icon -->
+                    <svg class="p-1 rounded-full bg-neutral-200 mr-2" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-2xl" id="SVG 45" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1918 8.90615C15.6381 8.45983 16.3618 8.45983 16.8081 8.90615L21.9509 14.049C22.3972 14.4953 22.3972 15.2189 21.9509 15.6652C21.5046 16.1116 20.781 16.1116 20.3347 15.6652L17.1428 12.4734V22.2857C17.1428 22.9169 16.6311 23.4286 15.9999 23.4286C15.3688 23.4286 14.8571 22.9169 14.8571 22.2857V12.4734L11.6652 15.6652C11.2189 16.1116 10.4953 16.1116 10.049 15.6652C9.60265 15.2189 9.60265 14.4953 10.049 14.049L15.1918 8.90615Z" fill="currentColor"></path>
+                    </svg>
+                    </div>
+                </div>
+                <div class="flex justify-around gap-2 text-center mt-3">
+                    <div class="flex items-center p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
+                        <img class="h-5" src="../src/Images/bluewave.svg" alt="">
+                        <p class="text-sm text-neutral-500">Create image</p>
+                    </div>
+                    <div class="flex p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
+                        <img class="h-5" src="../src/Images/bulb.svg" alt="">
+                        <p class="text-sm text-neutral-500"">Create image</p>
+                    </div>
+                    <div class="flex p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
+                        <img class="h-5" src="../src/Images/eyes-red.svg" alt="">
+                        <p class="text-sm text-neutral-500"">Create image</p>
+                    </div>
+                    <div class="flex p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
+                        <img class="h-5" src="../src/Images/Insights.svg" alt="">
+                        <p class="text-sm text-neutral-500"">Create image</p>
+                    </div>
+                    <div class="flex p-2 bg-white border rounded-3xl gap-1 w-1/5 mt-3">
+                        <img class="h-5" src="../src/Images/Insights.svg" alt="">
+                        <p class="text-sm text-neutral-500"">Create image</p>
+                    </div>
+                </div>
+                <div class="text-center top-80 absolute left-1/2 -translate-x-1/2">
+                    <h5 class="text-neutral-400 text-xs bottom-1">ChatGPT can make mistakes. Check important info.</h5>
+                
+             </div>
+             
+            </div>
+         </div>
+    </div>
+</body>
+</html>
